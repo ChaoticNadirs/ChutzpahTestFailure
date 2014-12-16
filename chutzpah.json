@@ -1,0 +1,14 @@
+{    
+	"Framework": "qunit",
+ 	"CodeCoverageIncludes": ["*.js"],
+	"CodeCoverageExcludes": [
+		"*\\angular/angular.js", 
+		"*\\angular/angular-mocks.js",
+		"*\\angular-ui/ui-bootstrap-tpls.js",
+        "*\\qunit/qunit-1.15.0.js",
+        "*\\sinon/sinon-1.9.1.js",  
+		"*\\test-js\\*"
+	],   
+    "RootReferencePathMode":"SettingsFileDirectory",
+	"TestHarnessDirectory": "./"
+}
